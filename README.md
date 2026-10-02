@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="mailto:masthansharif.shaik@students.iiit.ac.in"><img src="https://img.shields.io/badge/Email-IIIT%20H-0A66C2?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://sharif-commits.github.io"><img src="https://img.shields.io/badge/Website-sharif--commits.github.io-222?style=flat-square&logo=githubpages&logoColor=white" alt="Website"></a>
+  <a href="https://sharif-commits.github.io/ISL-AVATAR-PROJECT/"><img src="https://img.shields.io/badge/Live%20Demo-SignPlug-E8590C?style=flat-square&logo=googlechrome&logoColor=white" alt="SignPlug live demo"></a>
 </p>
 
 ---
@@ -25,12 +25,18 @@
 
 A lightweight, real-time framework that turns **sentences into continuous Indian Sign Language animation, right in the browser**, so Deaf and hard-of-hearing users can get sign-language support on any webpage.
 
+<p>
+  <a href="https://sharif-commits.github.io/ISL-AVATAR-PROJECT/"><img src="https://img.shields.io/badge/▶%20Try%20the%20live%20demo-SignPlug%20on%20the%20web-E8590C?style=for-the-badge" alt="Try the live demo"></a>
+</p>
+
+> The demo embeds the SignPlug 3D avatar widget into an ISL course webpage. It runs entirely in the browser, with no install and no GPU needed.
+
 - **Motion from real signers, not notation.** We reconstruct SMPL-X keyposes from monocular ISL dictionary videos and refine them with *Gizmo*, a custom sparse-correction annotation tool. The result is a motion-capture-quality **gloss–pose dictionary of 1,000 signs** with corrected body, hand and finger articulation.
 - **No GPU motion model at inference.** Predicted glosses are retrieved from the dictionary, retargeted onto a canonical avatar, and stitched together with SLERP.
 - **Fast enough for live use.** Animation plays at **25 FPS**, the same rate as the source footage, and a sentence is ready in **0.13 s (2 glosses) to 1.42 s (20 glosses)**.
 - **Validated with Deaf ISL signers.** In a user study with **11 Deaf and hard-of-hearing signers**, the motion was rated markedly smoother and more natural than notation-driven (HamNoSys/SiGML) avatars.
 
-🔗 Early prototype: **[ISL-AVATAR-PROJECT](https://github.com/sharif-commits/ISL-AVATAR-PROJECT)**
+🌐 **[Live demo](https://sharif-commits.github.io/ISL-AVATAR-PROJECT/)** &nbsp;·&nbsp; 🔗 **[Source (early prototype)](https://github.com/sharif-commits/ISL-AVATAR-PROJECT)**
 
 </td>
 </tr>
